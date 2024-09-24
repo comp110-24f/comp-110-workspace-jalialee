@@ -1,6 +1,6 @@
 """EX02 - Chardle - A cute step toward Wordle"""
 
-__author__ = 730762790
+__author__ = "730762790" 
 
 def input_word () -> str: 
     """Takes the inputted word and ensures that it's 5 characters"""
