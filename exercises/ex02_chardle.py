@@ -24,7 +24,7 @@ def contains_char(word: str, letter: str) -> None: #this function moves througho
    count_match: int = 0
    if word[0] == letter: #checks if the character at index 0 matches the inputted character, this goes the same for the rest of body of the function. 
        print(letter + " found at index 0")
-       count_match += 1
+       count_match += 1 # lets you go through the words to see how many instances it occurs 
    if word[1] == letter:
        print(letter + " found at index 1")
        count_match += 1
