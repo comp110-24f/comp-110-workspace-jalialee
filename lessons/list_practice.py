@@ -17,7 +17,7 @@
 
 #creating a populated list 
 game_points: list [int] = [102,86,94]
-#print (game_points)
+print (game_points)
 
 #practice indexing 
 #print (game_points [2]) #this prints out 94 
@@ -26,14 +26,14 @@ game_points: list [int] = [102,86,94]
 
 #modifiying the list by indexing 
 #(because lists are mutable)
-game_points[1] = 72
-print (game_points)
+#game_points[1] = 72
+#print (game_points)
 #getting the length of list 
 #print (len (game_points))
 
 #pop method to remove item 
-game_points.pop(1)
-print (game_points)
+#game_points.pop(1)
+#print (game_points)
 
 #practice 
 def display (int_list: list[int]) -> None: 
