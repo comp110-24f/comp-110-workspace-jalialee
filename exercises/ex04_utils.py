@@ -1,16 +1,16 @@
 """exercise with list"""
 __author__= "730762790"
 
-def all (int_list: list[int], target: int) -> bool:
-   """checks if the list is equal to that targetted number"""
-   if len(int_list) == 0:
-        return False 
-   i: int = 0 
-   while i < len (int_list): #index will go through the list to check over the list
-      if list[i] != target:
-         return False
-      i +=1 #adding one to the index 
-      return True 
+def all(list: list[int], target: int) -> bool:
+    """Checks if all numbers in the list are equal to indicated number."""
+    if len(list) == 0:
+        return False
+    i: int = 0
+    while i < len(list): #ensures each index is the same 
+        if list[i] != target:  
+            return False
+        i += 1
+    return True
    
 def max (input: list[int]) -> int: 
     """will return the highest number in the list"""
@@ -37,11 +37,11 @@ def is_equal (listone: list[int], listtwo: list[int]) -> bool:
         i += 1 
     return True 
 
-def extend (list1: list[int], list2: list[int]) -> None: 
+def extend (inputlist1: list[int], inputlist2: list[int]) -> None: 
     """adds the second list to the first list"""
-    for int in list2:
-        list1.append(int) #appending the values of list 2 into list 1
-        
+    for d in inputlist2:
+        inputlist1.append(d) #appending the values of list 2 into list 1
+
 
 
     
