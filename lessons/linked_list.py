@@ -25,6 +25,14 @@ print (one)
 print (str(courses))
 print (courses)
 
+def sum (head: Node | None) -> int: 
+    """compute the sum of all values in a linked list"""
+    if head is None: 
+        return 0 
+    else: 
+        rest: int = sum (head.next)
+        return rest + head.value 
+
 def to_str (head: Node | None) -> str:
     """represent a linked list as a str"""
     if head is None: 
